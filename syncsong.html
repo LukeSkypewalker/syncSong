@@ -1,0 +1,45 @@
+<head>
+  <title>SyncSongBook</title>
+</head>
+ 
+<body>
+  <div class="container">
+    <header>
+      <h1>SyncSongBook</h1>
+    </header>
+ 
+
+	<form class="new-query center">
+		<div class="flex-container">			
+			<div align="left">
+				<select size = "1" name="nextSong" class="form-control" autofocus>
+		   			{{#each songNames}}
+						{{> songName}}
+					{{/each}}
+			 	</select> 	
+				<button type="submit" class="btn btn-primary btn-lg btn-primary-outline">Go!</button>
+			</div>	
+		</div>
+	</form>
+
+
+
+
+    <pre>
+      {{#each songs}}
+        {{> songLyric}}
+      {{/each}}
+    </pre>
+ 
+  </div>
+</body>
+ 
+
+<template name="songLyric">
+{{{lyric}}}
+</template>
+
+<template name="songName">
+  <option value={{songName}}> {{songName}} </option>
+</template>
+
