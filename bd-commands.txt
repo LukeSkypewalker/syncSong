@@ -1,3 +1,4 @@
+db.songs.drop()
 db.songs.insert({songName:'Proton-M', lyric: cat('proton-M.txt')})
 db.songs.insert({songName:'Star3000', lyric: cat('star3000.txt')})
 db.songs.insert({songName:'Ария-Засыпай', lyric: cat('aria-sleep.txt')})

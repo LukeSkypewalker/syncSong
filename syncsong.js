@@ -1,5 +1,8 @@
 Songs = new Mongo.Collection("songs");
 
+
+
+
  
 if (Meteor.isClient) {
   Template.body.helpers({
@@ -11,7 +14,21 @@ if (Meteor.isClient) {
       if (nxtSong == undefined) return ;
       return Songs.find({songName: nxtSong.currentSongName});
       //return Songs.find({songName: Session.get('nextSong')});
-    }
+    },
+
+    //TODO: move toggleChords function from HTML to JS (here)
+    tglChords:function (showHideDiv, switchTextDiv) {
+      var ele = document.getElementById(showHideDiv);
+      var text = document.getElementById(switchTextDiv);
+      if(ele.style.display == "block") {
+            ele.style.display = "none";
+      text.innerHTML = "показать аккорды";
+      }
+    else {
+      ele.style.display = "block";
+      text.innerHTML = "спрятать аккорды";
+      }
+    } 
 
   });
 

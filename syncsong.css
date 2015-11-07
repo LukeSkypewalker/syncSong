@@ -1,1 +1,4 @@
-/* CSS declarations go here */
+.chord{
+	color:blue;
+	display: none;
+}

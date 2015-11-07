@@ -1,39 +1,47 @@
 <head>
   <title>SyncSongBook</title>
+  <meta name="viewport" content="width=320">
+
+  <script language="javascript"> 
+	function tglChords(showHideDiv, switchTextDiv) {
+	    var chords = document.getElementsByClassName(showHideDiv);
+	    var text = document.getElementsByClassName(switchTextDiv);
+	    var i;
+	    for (i = 0; i < chords.length; i++) {
+	        if(chords[i].style.display == "block") {
+	            chords[i].style.display = "none";
+	        	text.innerHTML = "показать аккорды";
+	        }
+	    	else {
+		     	chords[i].style.display = "block";
+		    	text.innerHTML = "спрятать аккорды";
+	    	}
+        }
+    } 
+  </script>
+
 </head>
  
 <body>
   <div class="container">
-    <header>
-      <h1>SyncSongBook</h1>
-    </header>
- 
 
-	<form class="new-query center">
-		<div class="flex-container">			
-			<div align="left">
-				<select size = "1" name="nextSong" class="form-control" autofocus>
-		   			{{#each songNames}}
-						{{> songName}}
-					{{/each}}
-			 	</select> 	
-				<button type="submit" class="btn btn-primary btn-lg btn-primary-outline">Go!</button>
-			</div>	
-		</div>
+	<form id="listOfSongs">	
+		<select size = "1" name="nextSong" class="form-control" autofocus>
+   			{{#each songNames}}
+				{{> songName}}
+			{{/each}}
+	 	</select> 	
+		<button type="submit" class="btn btn-primary btn-lg btn-primary-outline">Go!</button>
 	</form>
 
+ 	<button id="chordsButton" onclick="tglChords('chord','chordsButton')">показать аккорды</button>
 
-
-
-<pre>
-{{#each songs}}
-{{> songLyric}}
-{{/each}}
-</pre>
+	<pre>{{#each songs}}{{> songLyric}}{{/each}}</pre>
  
   </div>
 </body>
  
+
 
 <template name="songLyric">
 {{{lyric}}}
