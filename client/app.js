@@ -19,7 +19,7 @@ Template.index.events({
 			{upsert: true}
 		);
 	},
-	'change #hideAccords': function(e) {
+	'change #hideChords': function(e) {
 		e.preventDefault();
 		hideChords = hideChords?false:true;
 		$('.chord').toggle();
