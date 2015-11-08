@@ -1,0 +1,59 @@
+<head>
+	<title>Sync Song</title>
+	<meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+</body>
+
+<template name="index">
+	{{#contentFor "headerTitle"}}
+		<h1 class="title">Sync Song</h1>
+	{{/contentFor}}
+	{{#ionView}}
+		{{#ionContent}}
+			<form id="listOfSongs">
+				<div class="list">
+					<label class="item item-input item-select">
+						<div class="input-label">Песня</div>
+						<select name="nextSong" id="nextSong">
+							{{#each songNames}}
+								{{> songName}}
+							{{/each}}
+						</select>
+					</label>
+					<div class="item item-toggle">
+						Спрятать аккорды
+						<label class="toggle toggle-assertive">
+							<input type="checkbox" id="hideAccords">
+							<div class="track">
+								<div class="handle"></div>
+							</div>
+						</label>
+					</div>
+<!-- 					<select size = "1" name="nextSong" class="form-control" autofocus>
+						{{#each songNames}}
+							{{> songName}}
+						{{/each}}
+					</select> -->
+					<!-- <button type="submit" class="btn btn-primary btn-lg btn-primary-outline">Go!</button> -->
+					<!-- <button type="submit" class="button button-full button-positive">Go!</button> -->
+				</div>
+			</form>
+			<!-- <button class="button button-full button-positive" data-action="showActionSheet">Спрятать аккорды</button> -->
+			<!-- <button id="chordsButton" onclick="tglChords('chord','chordsButton')">спрятать аккорды</button> -->
+			<div class="padding">
+				<pre>{{#each songs}}{{> songLyric}}{{/each}}</pre>
+			</div>
+		{{/ionContent}}
+	{{/ionView}}
+
+</template>
+
+<template name="songLyric">
+	{{{lyric}}}
+</template>
+
+<template name="songName">
+	<option value={{songName}}> {{songName}} </option>
+</template>
