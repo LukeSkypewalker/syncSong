@@ -1,22 +1,22 @@
-<div class="chord" style="display: none;"> Em</div>Звезды с неба падают бисером
-<div class="chord" style="display: none;"> C</div>Я сижу на окне под звездами
-<div class="chord" style="display: none;"> Am</div>Жду удачу, удача близится,
-<div class="chord" style="display: none;"> D</div>Нависает удача гроздьями.
+<div class="chord"> Em</div>Звезды с неба падают бисером
+<div class="chord"> C</div>Я сижу на окне под звездами
+<div class="chord"> Am</div>Жду удачу, удача близится,
+<div class="chord"> D</div>Нависает удача гроздьями.
 
 Жизнь на Марсе, смерть на Юпитере,
 На луне есть лунные кратеры,
 А Гагарина зря обидели-
 Принесли похоронку матери.
 
-<div class="chord" style="display: none;">        G</div>    За звезду полжизни,
-<div class="chord" style="display: none;">        C</div>    За Луну - свободу.
-<div class="chord" style="display: none;">        D</div>    Я целую небо,
-<div class="chord" style="display: none;">        H7</div>    А оно льет воду.
+<div class="chord">        G</div>    За звезду полжизни,
+<div class="chord">        C</div>    За Луну - свободу.
+<div class="chord">        D</div>    Я целую небо,
+<div class="chord">        H7</div>    А оно льет воду.
 
-<div class="chord" style="display: none;"> Em</div>Кто летал, тем бояться нечего,
-<div class="chord" style="display: none;"> C</div>Кто летал, тот с заданьем справился.
-<div class="chord" style="display: none;"> Am</div>В темном небе кометы светятся
-<div class="chord" style="display: none;"> D</div>Космонавтам такое нравится.
+<div class="chord"> Em</div>Кто летал, тем бояться нечего,
+<div class="chord"> C</div>Кто летал, тот с заданьем справился.
+<div class="chord"> Am</div>В темном небе кометы светятся
+<div class="chord"> D</div>Космонавтам такое нравится.
 
 Я сижу на окне под звездами,
 Жду удачу, считаю сдачу.

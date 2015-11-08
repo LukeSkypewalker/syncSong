@@ -5,17 +5,22 @@
   <script language="javascript"> 
 	function tglChords(showHideDiv, switchTextDiv) {
 	    var chords = document.getElementsByClassName(showHideDiv);
-	    var text = document.getElementsByClassName(switchTextDiv);
+	    var text = document.getElementById(switchTextDiv);
+	    //TODO refactor var i and if(chords[0]..
 	    var i;
-	    for (i = 0; i < chords.length; i++) {
-	        if(chords[i].style.display == "block") {
+	    if(chords[0].style.display == "block") {
+	    	for (i = 0; i < chords.length; i++) {
+	        
 	            chords[i].style.display = "none";
-	        	text.innerHTML = "показать аккорды";
 	        }
-	    	else {
+	    	text.innerHTML = "показать аккорды";
+	    }
+	    else {
+	    	for (i = 0; i < chords.length; i++) {
 		     	chords[i].style.display = "block";
-		    	text.innerHTML = "спрятать аккорды";
+		    	
 	    	}
+	    	text.innerHTML = "спрятать аккорды";
         }
     } 
   </script>
@@ -34,7 +39,7 @@
 		<button type="submit" class="btn btn-primary btn-lg btn-primary-outline">Go!</button>
 	</form>
 
- 	<button id="chordsButton" onclick="tglChords('chord','chordsButton')">показать аккорды</button>
+ 	<button id="chordsButton" onclick="tglChords('chord','chordsButton')">спрятать аккорды</button>
 
 	<pre>{{#each songs}}{{> songLyric}}{{/each}}</pre>
  

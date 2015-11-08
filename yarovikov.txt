@@ -1,7 +1,7 @@
-<div class="chord" style="display: none;"> C</div>Я чужой на Таганке и Чистых Прудах,
-<div class="chord" style="display: none;"> G</div>Для меня карта города – форменный бред.
-<div class="chord" style="display: none;"> Am</div>И если спросят, зачем я приперся сюда –
-<div class="chord" style="display: none;"> F              G</div>Я едва линайду подходящий ответ.
+<span class="chord" style="display: block;" > C</span>Я чужой на Таганке и Чистых Прудах,
+<span class="chord" style="display: block;" > G</span>Для меня карта города – форменный бред.
+<span class="chord" style="display: block;" > Am</span>И если спросят, зачем я приперся сюда –
+<span class="chord" style="display: block;" > F              G</span>Я едва линайду подходящий ответ.
 И я всегда забываю стрематься ментов
 И зачем-то не лезть на глаза спартачам.
 И никак в голове не уляжется, что

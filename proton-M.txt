@@ -1,17 +1,17 @@
-<div class="chord"> Em</div>Наш завод обнесен заборчиком,
-<div class="chord"> C</div>На фасаде Гагарин высечен.
-<div class="chord"> Am</div>Я тружусь на заводе сборщиком,
-<div class="chord"> D</div>На окладе сижу в три тысячи.
+<div class="chord" style="display: block;" > Em</div>Наш завод обнесен заборчиком,
+<div class="chord" style="display: block;" > C</div>На фасаде Гагарин высечен.
+<div class="chord" style="display: block;" > Am</div>Я тружусь на заводе сборщиком,
+<div class="chord" style="display: block;" > D</div>На окладе сижу в три тысячи.
 
 Там на Марсе сажает овощи
 Curiosity где-то в кратере.
 А мы ракеты клепаем с помощью
 Молотка и какой-то матери.
 
-<div class="chord">        G</div>    Новая ракета
-<div class="chord">        C</div>    Где-то раз в полгода
-<div class="chord">        D</div>    С помпой выезжает
-<div class="chord">        H7</div>    С нашего завода.
+<div class="chord" style="display: block;" >        G</div>    Новая ракета
+<div class="chord" style="display: block;" >        C</div>    Где-то раз в полгода
+<div class="chord" style="display: block;" >        D</div>    С помпой выезжает
+<div class="chord" style="display: block;" >        H7</div>    С нашего завода.
 
     И летит куда-то
     Где-то раз в полгода,
@@ -20,20 +20,20 @@ Curiosity где-то в кратере.
 
     Да елы-палы-блин!
 
-<div class="chord"> Em</div>У меня инструменты точные,
-<div class="chord"> C</div>Мне работать легко и радостно,
-<div class="chord"> Am</div>Гвоздь на 200 – большой, заточенный,
-<div class="chord"> D</div>Две лопаты, ведро и градусник.
+<div class="chord" style="display: block;" > Em</div>У меня инструменты точные,
+<div class="chord" style="display: block;" > C</div>Мне работать легко и радостно,
+<div class="chord" style="display: block;" > Am</div>Гвоздь на 200 – большой, заточенный,
+<div class="chord" style="display: block;" > D</div>Две лопаты, ведро и градусник.
 
 Я работаю не с бумажками!
 Мне несут для ракеты датчики.
 Я втыкаю их вверх тормашками
 И кувалдой по ним хреначу!
 
-<div class="chord">        G</div>    Клевая работа:
-<div class="chord">        C</div>    Сутки через трое,
-<div class="chord">        D</div>    Выходной – суббота.
-<div class="chord">        H7</div>    Я ракету строю.
+<div class="chord" style="display: block;" >        G</div>    Клевая работа:
+<div class="chord" style="display: block;" >        C</div>    Сутки через трое,
+<div class="chord" style="display: block;" >        D</div>    Выходной – суббота.
+<div class="chord" style="display: block;" >        H7</div>    Я ракету строю.
 
     Штаты не осилить,
     Не догнать Европу.
