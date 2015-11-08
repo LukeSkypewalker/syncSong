@@ -9,6 +9,7 @@ Template.index.helpers({
 	},
 });
 
+var hideChords = false;
 Template.index.events({
 	'change #nextSong': function(e) {
 		e.preventDefault();
@@ -20,6 +21,13 @@ Template.index.events({
 	},
 	'change #hideAccords': function(e) {
 		e.preventDefault();
+		hideChords = hideChords?false:true;
 		$('.chord').toggle();
+	}
+});
+
+Template.songLyric.onRendered(function(){
+	if (hideChords) {
+		$('.chord').hide();
 	}
 });
