@@ -2,25 +2,23 @@
   <title>SyncSongBook</title>
   <meta name="viewport" content="width=320">
 
+  <!-- TODO move function to JS file -->
   <script language="javascript"> 
-	function tglChords(showHideDiv, switchTextDiv) {
+	function tglChords(showHideDiv, switchButton) {
 	    var chords = document.getElementsByClassName(showHideDiv);
-	    var text = document.getElementById(switchTextDiv);
-	    //TODO refactor var i and if(chords[0]..
+	    var text = document.getElementById(switchButton);
 	    var i;
-	    if(chords[0].style.display == "block") {
-	    	for (i = 0; i < chords.length; i++) {
-	        
-	            chords[i].style.display = "none";
+	    if(chords[0].style.display == "none") {
+	    	for (i = 0; i < chords.length; i++) {   
+	            chords[i].style.display = "block";
 	        }
-	    	text.innerHTML = "показать аккорды";
+	    	text.innerHTML = "спрятать аккорды";
 	    }
 	    else {
 	    	for (i = 0; i < chords.length; i++) {
-		     	chords[i].style.display = "block";
-		    	
+		     	chords[i].style.display = "none";		    	
 	    	}
-	    	text.innerHTML = "спрятать аккорды";
+	    	text.innerHTML = "показать аккорды";
         }
     } 
   </script>
