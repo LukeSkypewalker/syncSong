@@ -1,0 +1,17 @@
+<div class="chord">  C         Em</div>Луч солнца золотого
+<div class="chord">  Am           C</div>Тьмы скрыла пелена
+<div class="chord">   C           Em</div>И между нами снова
+<div class="chord">F               E7</div>Вдруг выросла стена
+<div class="chord">F       G</div>А-а-а…
+
+<div class="chord">    C                     F       G</div>    Ночь пройдет наступит утро ясное
+<div class="chord">    C                     F       G</div>    Знаю счастье нас с тобой ждет
+<div class="chord">    C                     F       E</div>    Ночь пройдет пройдет пора ненастная
+<div class="chord">    Am     F   G   C            Am  F  G</div>    Солнце взойдет           солнце взойдет
+
+Петь птицы перестали
+Cвет звёзд коснулся крыш
+В час грусти и печали
+Ты голос мой услышь
+
+Припев.

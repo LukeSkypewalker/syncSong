@@ -1,0 +1,53 @@
+<div class="chord">Am    G        Dm</div>По лазоревой степи
+<div class="chord">      F      G     Am</div>Ходит месяц молодой,
+<div class="chord">Am       G        Dm</div>С белой гривой до копыт, 
+<div class="chord">      F      G   C</div>С позолоченной уздой.
+<div class="chord">C          G</div>Монистовый звон
+<div class="chord">Am           F</div>Монгольских стремян -
+<div class="chord">C         G</div>Ветрами рожден
+<div class="chord">Dm        G</div>И ливнями прян. 
+<div class="chord">Am    G        Dm</div>Из кувшина через край
+<div class="chord">      F      G     Am</div>Льется в небо молоко;
+<div class="chord">Am       G        Dm</div>Спи, мой милый, засыпай,
+<div class="chord">      F      G   C</div>Завтра ехать далеко.
+<div class="chord">C          G</div>Рассвета искал -
+<div class="chord">Am           F</div>Ушел невредим,
+<div class="chord">C         G</div>Меня целовал
+<div class="chord">Dm        G</div>Не ты ли один? 
+<div class="chord">Am    G        Dm</div>Как у двери Тамерла-
+<div class="chord">      F      G     Am</div>Новой выросла трава;
+<div class="chord">Am       G        Dm</div>Я ли не твоя стрела,
+<div class="chord">      F      G   C</div>Я ль тебе не тетива? 
+<div class="chord">C          G</div>Ты - сердце огня,
+<div class="chord">Am           F</div>Ты - песня знамен,
+<div class="chord">C         G</div>Покинешь меня,
+<div class="chord">Dm        G</div>Степями пленен.
+<div class="chord">D         A</div>Кибитками лун - 
+<div class="chord">Hm        G</div>В дорожный туман,
+<div class="chord">D         A</div>Небесный табун,
+<div class="chord">Em        A</div>Тяжелый колчан;
+<div class="chord">D         A</div>Чужая стрела,
+<div class="chord">Hm        G</div>Луна - пополам,
+<div class="chord">D         A</div>Полынь да зола -
+<div class="chord">Em        A</div>Тебе, Тамерлан. 
+<div class="chord">Hm         A</div>Тревожить ковыль - тебе -
+<div class="chord">Em            G A</div>В других берегах,
+<div class="chord">Hm         A</div>И золотом стыть - тебе -
+<div class="chord">Em            G A</div>В высокий курган.
+<div class="chord">D         A</div>А мне - вышивать
+<div class="chord">Hm        G</div>Оливковый лен,
+<div class="chord">D         A</div>Слезами ронять
+<div class="chord">Em        A</div>Монистовый звон;
+<div class="chord">D         A</div>Обручью костра
+<div class="chord">Hm        G</div>Навеки верна -
+<div class="chord">D         A</div>Тебе не сестра,
+<div class="chord">Em        A</div>Тебе не жена.
+
+Hm A Em G A  
+Hm A Em G A 
+D A Hm G D A Em A 
+D A Hm G D A Em A 
+
+A|------2--------5--4--2----------------------------
+E|-2------2-0--------------0------------------------
+

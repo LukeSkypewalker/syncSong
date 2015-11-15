@@ -18,7 +18,7 @@
 					<label class="item item-input item-select">
 						<div class="input-label">Песня</div>
 						<select name="nextSong" id="nextSong">
-							{{#each songNames}}
+							{{#each songList}}
 								{{> songName}}
 							{{/each}}
 						</select>
@@ -35,17 +35,12 @@
 				</div>
 			</form>
 			<div class="padding">
-				<pre>{{#each songs}}{{> songLyric}}{{/each}}</pre>
+				<pre>{{#each songs}}{{{lyric}}}{{/each}}</pre>
 			</div>
 		{{/ionContent}}
 	{{/ionView}}
-
-</template>
-
-<template name="songLyric">
-	{{{lyric}}}
 </template>
 
 <template name="songName">
-	<option value={{songName}}> {{songName}} </option>
+	<option value={{songName}}>{{artist}} - {{songName}}</option>
 </template>
