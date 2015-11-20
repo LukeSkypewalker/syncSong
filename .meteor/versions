@@ -1,5 +1,6 @@
 accounts-base@1.2.2
 accounts-facebook@1.0.6
+accounts-google@1.0.6
 accounts-oauth@1.1.8
 accounts-twitter@1.0.6
 accounts-ui@1.1.6
@@ -38,6 +39,7 @@ facebook@1.2.2
 fastclick@1.0.7
 fourseven:scss@2.1.1
 geojson-utils@1.0.4
+google@1.1.7
 hot-code-push@1.0.0
 html-tools@1.0.5
 htmljs@1.0.5
@@ -96,6 +98,7 @@ standard-minifiers@1.0.2
 stylus@2.511.1
 templating@1.1.5
 templating-tools@1.0.0
+themeteorites:route-class@0.0.2
 tracker@1.0.9
 twitter@1.1.5
 ui@1.0.8
@@ -108,3 +111,4 @@ webapp-hashing@1.0.5
 yasinuslu:metrika@0.1.1
 zimme:active-route@2.0.4_1
 zimme:iron-router-active@2.0.1
+zimme:iron-router-auth@3.1.0

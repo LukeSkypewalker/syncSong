@@ -1,4 +1,5 @@
-Template.index.helpers({
+// room
+Template.room.helpers({
 	songList: function() {
 		//TODO: Sort List ( I've tried, but i didn't successed)
 		// return Songs.find({songName: {$exists: true}}, {artist: 1, songName: 1, _id: 1}, {sort: {artist: 1}} );
@@ -13,7 +14,7 @@ Template.index.helpers({
 });
 
 var hideChords = false;
-Template.index.events({
+Template.room.events({
 	'change #nextSong': function(e) {
 		e.preventDefault();
 		Songs.update(
@@ -34,3 +35,13 @@ Template.songLyric.onRendered(function(){
 		$('.chord').hide();
 	}
 });
+
+// rooms
+Template.rooms.helpers({
+	rooms: function() {
+		return Rooms.find();
+	},
+});
+
+
+

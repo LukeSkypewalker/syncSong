@@ -1,12 +1,9 @@
 <template name="landing">
-	{{#contentFor "headerTitle"}}
-		<h1 class="title">Sync Song</h1>
-	{{/contentFor}}
 	{{#ionView}}
 		{{#ionContent}}
-			{{> ionNavBar class="bar-positive"}}
-
-
+			{{> logo}}
+			<h1>Sync Song</h1>
+			<a class="button-login button button-positive" href="/rooms">Enter</a>
 		{{/ionContent}}
 	{{/ionView}}
 </template>

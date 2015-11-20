@@ -5,8 +5,18 @@
 	{{#ionView}}
 		{{#ionContent}}
 			{{> ionNavBar class="bar-positive"}}
-
-
+			<div class="list">
+				{{#each rooms}}
+					{{> roomsItem}}
+				{{/each}}
+			</div>
 		{{/ionContent}}
 	{{/ionView}}
+</template>
+
+<template name="roomsItem">
+	<a class="item item-icon-right" href="/room/{{url}}">
+		{{name}} <span class="gray">{{artist}} - {{lyric}}</span>
+		<i class="icon ion-arrow-right-c"></i>
+	</a>
 </template>

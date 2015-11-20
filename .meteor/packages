@@ -24,7 +24,8 @@ iron:router
 zimme:iron-router-active
 anti:fake
 matb33:collection-hooks
-fourseven:scss@2.0.0
+# fourseven:scss@2.0.0
+fourseven:scss
 aldeed:collection2
 aldeed:autoform
 meteoric:ionic-sass
@@ -39,3 +40,6 @@ accounts-ui
 accounts-twitter
 mrt:accounts-vk
 # mrt:meteor-vkontakte
+accounts-google
+themeteorites:route-class
+zimme:iron-router-auth
