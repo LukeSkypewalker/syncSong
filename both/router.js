@@ -3,7 +3,16 @@ Router.configure({
 });
 
 Router.map(function() {
-	this.route('index', {
+	this.route('landing', {
 		path: '/'
+	});
+	// this.route('songs', {
+	// 	path: '/songs'
+	// });
+	this.route('userAccounts', {
+		path: '/auth'
+	});
+	this.route('rooms', {
+		path: '/rooms'
 	});
 });

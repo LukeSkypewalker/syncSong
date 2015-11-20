@@ -19,16 +19,23 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 stylus
-accounts-password
+# accounts-password
 iron:router
 zimme:iron-router-active
 anti:fake
 matb33:collection-hooks
+fourseven:scss@2.0.0
 aldeed:collection2
 aldeed:autoform
-meteoric:ionic-sass@0.3.0
-meteoric:ionicons-sass@0.1.7
-meteoric:ionic@0.1.19
+meteoric:ionic-sass
+meteoric:ionicons-sass
+meteoric:ionic
 meteoric:autoform-ionic
 useraccounts:ionic
-fourseven:scss
+yasinuslu:metrika
+# driftyco:ionic
+accounts-facebook
+accounts-ui
+accounts-twitter
+mrt:accounts-vk
+# mrt:meteor-vkontakte

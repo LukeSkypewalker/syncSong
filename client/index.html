@@ -1,11 +1,3 @@
-<head>
-	<title>Sync Song</title>
-	<meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
-</head>
-
-<body>
-</body>
-
 <template name="index">
 	{{#contentFor "headerTitle"}}
 		<h1 class="title">Sync Song</h1>
@@ -35,7 +27,7 @@
 				</div>
 			</form>
 			<div class="padding">
-				<pre>{{#each songs}}{{{lyric}}}{{/each}}</pre>
+				<pre>{{#each songs}}{{> songLyric}}{{/each}}</pre>
 			</div>
 		{{/ionContent}}
 	{{/ionView}}
@@ -43,4 +35,8 @@
 
 <template name="songName">
 	<option value={{songName}}>{{artist}} - {{songName}}</option>
+</template>
+
+<template name="songLyric">
+	{{{lyric}}}
 </template>
