@@ -22,6 +22,12 @@ Template.room.events({
 			{$set: {currentSongName: e.target.value}},
 			{upsert: true}
 		);
+		Rooms.update(
+			// {url: this._id},
+			{url: 'scoltech'},
+			{$set: {songName: e.target.value}},
+			{upsert: true}
+		);
 	},
 	'change #hideChords': function(e) {
 		e.preventDefault();

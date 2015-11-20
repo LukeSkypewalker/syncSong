@@ -4,25 +4,25 @@ Meteor.startup (function() {
 			name: 'Scoltech',
 			url: 'scoltech',
 			artist: 'Ария',
-			lyric: 'Засыпай'
+			songName: 'Засыпай'
 		});
 		Rooms.insert({
 			name: 'HSE',
 			url: 'hse',
 			artist: 'Ария',
-			lyric: 'Засыпай'
+			songName: 'Засыпай'
 		});
 		Rooms.insert({
 			name: 'MSU',
 			url: 'msu',
 			artist: 'Ария',
-			lyric: 'Засыпай'
+			songName: 'Засыпай'
 		});
 		Rooms.insert({
 			name: 'Школа музыки Guitardo',
 			url: 'guitardo',
 			artist: 'Ария',
-			lyric: 'Засыпай'
+			songName: 'Засыпай'
 		});
 	};
 });

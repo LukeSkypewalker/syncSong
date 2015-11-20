@@ -13,6 +13,10 @@ Router.map(function() {
 		path: '/rooms'
 	});
 	this.route('room', {
-		path: '/room/:_id'
+		path: '/room/:_id',
+		data: function(){
+			var currentRoom = this.params._id;
+			return Rooms.findOne({ name: currentRoom });
+		}
 	});
 });
