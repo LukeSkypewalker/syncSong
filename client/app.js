@@ -13,10 +13,14 @@ Template.room.helpers({
 	},
 	roomId: function() {
 		return roomId = Rooms.find({url: Session.get('roomId')}).fetch()[0].name;
+	},
+	hideChords: function() {
+		return Session.get('hideChords');
 	}
 });
 
-var hideChords = false;
+// var hideChords = false;
+Session.set('hideChords', false);
 Template.room.events({
 	'change #nextSong': function(e) {
 		e.preventDefault();
@@ -38,12 +42,17 @@ Template.room.events({
 	},
 	'change #hideChords': function(e) {
 		e.preventDefault();
+		var hideChords = Session.get('hideChords');
 		hideChords = hideChords?false:true;
+		Session.set('hideChords', hideChords);
+		console.log(hideChords);
 		$('.chord').toggle();
 	}
 });
 
 Template.songLyric.onRendered(function(){
+	var hideChords = Session.get('hideChords');
+	console.log(hideChords);
 	if (hideChords) {
 		$('.chord').hide();
 	}
