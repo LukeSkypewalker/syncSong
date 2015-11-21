@@ -22,11 +22,18 @@ Template.room.events({
 			{$set: {currentSongName: e.target.value}},
 			{upsert: true}
 		);
+		var roomId = Rooms.find({url: Session.get('roomId')}).fetch()[0]._id;
+		// TODO: нужно разделить artist и song (проверять на уникальность по обоим значениям)
+		var artist = Songs.find({songName: e.target.value}).fetch()[0].artist;
+		// console.log(artist.fetch());
 		Rooms.update(
-			// {url: this._id},
-			{url: 'scoltech'},
-			{$set: {songName: e.target.value}},
-			{upsert: true}
+			// {url: Session.get('roomId')},
+			{_id: roomId},
+			{$set: {
+				songName: e.target.value,
+				artist: artist
+			}}
+			// {upsert: true}
 		);
 	},
 	'change #hideChords': function(e) {

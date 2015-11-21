@@ -15,8 +15,7 @@ Router.map(function() {
 	this.route('room', {
 		path: '/room/:_id',
 		data: function(){
-			var currentRoom = this.params._id;
-			return Rooms.findOne({ name: currentRoom });
+			Session.set('roomId', this.params._id);
 		}
 	});
 });
