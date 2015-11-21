@@ -11,6 +11,9 @@ Template.room.helpers({
 		if (nxtSong == undefined) return ;
 		return Songs.find({songName: nxtSong.currentSongName});
 	},
+	roomId: function() {
+		return roomId = Rooms.find({url: Session.get('roomId')}).fetch()[0].name;
+	}
 });
 
 var hideChords = false;
