@@ -34,6 +34,7 @@ meteoric:ionic
 meteoric:autoform-ionic
 useraccounts:ionic
 yasinuslu:metrika
+reywood:iron-router-ga
 # driftyco:ionic
 accounts-facebook
 accounts-ui
