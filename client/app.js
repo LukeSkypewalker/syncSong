@@ -25,15 +25,12 @@ Template.room.events({
 		var roomId = Rooms.find({url: Session.get('roomId')}).fetch()[0]._id;
 		// TODO: нужно разделить artist и song (проверять на уникальность по обоим значениям)
 		var artist = Songs.find({songName: e.target.value}).fetch()[0].artist;
-		// console.log(artist.fetch());
 		Rooms.update(
-			// {url: Session.get('roomId')},
 			{_id: roomId},
 			{$set: {
 				songName: e.target.value,
 				artist: artist
 			}}
-			// {upsert: true}
 		);
 	},
 	'change #hideChords': function(e) {
