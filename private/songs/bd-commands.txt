@@ -12,4 +12,6 @@ db.songs.insert({artist:'Юрий Визбор', songName:'Ты у меня од
 db.songs.insert({artist:'Из мультиков', songName:'мы бандито, гангстерито', lyric: cat('Songs\\mult - bandito.txt')})
 db.songs.insert({artist:'Найк Борзов', songName:'Верхом на звезде', lyric: cat('Songs\\naik borzov - verhom na zvezde.txt')})
 db.songs.insert({artist:'Бременские музыканты', songName:'Луч солнца золотого', lyric: cat('Songs\\bremenskie - luch solntca zolotogo.txt')})
-db.songs.update({_id: 'currentSong'}, {$set : {currentSongName:'Верхом на звезде'}}, {upsert: true});
+db.songs.insert({artist:'Troggs', songName:'Wild Thing', lyric: cat('private\\songs\\Troggs - Wild Thing.txt')})
+db.songs.insert({artist:'Браво', songName:'Любите девушки', lyric: cat('private\\songs\\bravo - lubite devushki.txt')})
+db.songs.update({_id: 'currentSong'}, {$set : {currentSongName:'Протон-М'}}, {upsert: true});
