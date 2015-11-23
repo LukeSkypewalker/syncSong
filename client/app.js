@@ -29,9 +29,9 @@ Template.room.events({
 			{$set: {currentSongName: e.target.value}},
 			{upsert: true}
 		);
-		var roomId = Rooms.find({url: Session.get('roomId')}).fetch()[0]._id;
+		var roomId = Rooms.findOne({url: Session.get('roomId')})._id;
 		// TODO: нужно разделить artist и song (проверять на уникальность по обоим значениям)
-		var artist = Songs.find({songName: e.target.value}).fetch()[0].artist;
+		var artist = Songs.findOne({songName: e.target.value}).artist;
 		Rooms.update(
 			{_id: roomId},
 			{$set: {
