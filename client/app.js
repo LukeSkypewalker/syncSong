@@ -1,4 +1,5 @@
 // room
+Meteor.subscribe("songs");
 Template.room.helpers({
 	songList: function() {
 		//TODO: Sort List ( I've tried, but i didn't successed)
@@ -59,6 +60,7 @@ Template.songLyric.onRendered(function(){
 });
 
 // rooms
+Meteor.subscribe("rooms");
 Template.rooms.helpers({
 	rooms: function() {
 		return Rooms.find();

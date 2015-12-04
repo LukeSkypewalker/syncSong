@@ -1,4 +1,7 @@
 Meteor.startup (function() {
+	Meteor.publish("rooms", function () {
+		return Rooms.find();
+	});
 	if (Rooms.find().count() === 0) {
 		Rooms.insert({
 			name: 'Scoltech',

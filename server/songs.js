@@ -1,4 +1,7 @@
 Meteor.startup (function() {
+	Meteor.publish("songs", function () {
+		return Songs.find();
+	});
 	if (Songs.find().count() === 0) {
 		Songs.insert({artist:'Николай Гринько', songName:'Протон-М', lyric: Assets.getText('songs/nikolay grinko - proton-m.txt')});
 		Songs.insert({artist:'Смысловые галюцинации', songName:'Звезды 3000', lyric: Assets.getText('songs/smislovie galucinacii - zvezdi3000.txt')});
