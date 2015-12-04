@@ -11,14 +11,17 @@
 			{{> ionNavBar class="bar-positive"}}
 			<form id="listOfSongs">
 				<div class="list">
-					<label class="item item-input item-select">
-						<div class="input-label">Песня</div>
-						<select name="nextSong" id="nextSong">
-							{{#each songList}}
-								{{> songName}}
-							{{/each}}
-						</select>
+					<label class="item item-input">
+						<!-- <div class="input-label">Песня</div> -->
+						{{> EasySearch.Input index=SongsIndex attributes=inputAttributes}}
+						<!-- {{> EasySearch.Autosuggest index=SongsIndex}} -->
 					</label>
+					{{#EasySearch.Each index=SongsIndex }}
+						<li class="item item-song"><div class="artist">{{artist}}</div><div class="song-name">{{songName}}</div></li>
+					{{/EasySearch.Each}}
+					<button class="button button-full button-positive" id="changeSong">
+						Обновить песню в комнате
+					</button>
 					<div class="item item-toggle">
 						Спрятать аккорды
 						<label class="toggle toggle-assertive">
@@ -37,9 +40,9 @@
 	{{/ionView}}
 </template>
 
-<template name="songName">
+<!-- <template name="songName">
 	<option value={{songName}}>{{artist}} - {{songName}}</option>
-</template>
+</template> -->
 
 <template name="songLyric">
 	{{{lyric}}}
