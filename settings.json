@@ -6,5 +6,11 @@
     "ga": {
       "id": "UA-70422180-1"
     }
+  },
+  "kadira": {
+    "appId": "cT2JmAC4APMgEzJDz",
+    "appSecret": "34dc26b8-00ef-4965-9933-a3294081e952",
+    "options": {
+    }
   }
 }

@@ -46,3 +46,4 @@ themeteorites:route-class
 zimme:iron-router-auth
 reactive-var
 seba:minifiers-autoprefixer
+meteorhacks:kadira
